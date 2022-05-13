@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
@@ -12,6 +12,22 @@
 </head>
 <body>
     <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="ressource/logo.jpg" alt="logo de nour" width="100" height="88">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>Accueil</li>
+                        <li>A-Propos</li>
+                        <li>Axe-Routiers</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <h1>TOUTES NOS ESCALES</h1>
         <div class="tab">
             <table>
@@ -283,5 +299,52 @@
             </table>
         </div>
     </div>
+    <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>PAIEMENTS</h4>
+  	 			<ul>
+  	 				<li><a href="#"><img src="ressource/PAIEMENT-ORANGE-MONEY.png" alt="Orange Money" width="50" height="50"></a></li>
+  	 				<li><a href="#"><img src="ressource/mastercard.png" alt="mastercard" width="50" height="50"></a></li>
+  	 				<li><a href="#"><img src="ressource/PayPal-V-300x116.png" alt="paypal" width="50" height="50"></a></li>
+  	 				<li><a href="#"><img src="ressource/visa.png" alt="visa width="50" height="50"></a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>DERNIERES ACTUS</h4>
+  	 			<ul>
+  	 				<li><a href="#">OUVERTURE <br> D'UN NOUVEL AXE <br> BAMAKO-TOMBOUCTOU- <br> BAMAKO</a></li>
+  	 				<li><a href="#">OUVERTURE <br> DE L'AXE BAMAKO- <br> MOPTI-BAMAKO</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>CGV & CONFIDENTIALITE</h4>
+  	 			<ul>
+  	 				<li><a href="#">Condition Générales</a></li>
+  	 				<li><a href="#">Confidentialité et Cookies</a></li>
+  	 				<li><a href="#">FAQ</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+                   <form action="php/form.php" method="POST"">
+  	 			<h4>NOTRE NEWSLETTER</h4>
+  	 			<div class="formualire">
+                    <div class="groupe">
+                        <label>Nom:</label>
+                        <input type="text" class="input" name="nom" placeholder="Votre nom ici...">
+                    </div>
+                    <div class="groupe">
+                        <label>Email:</label>
+                        <input type="text" class="input" name="email" placeholder="Votre email ici...">
+  	 			</div>
+                   <div class="btn" align="right">
+                    <button type="submit">Je m'abonne</button>
+                </form>
+                </div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 </body>
 </html>
