@@ -4,8 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="service.css">
     <title>TRANSPORT ET BUSINESS</title>
+    <style>
+        body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    background-color: rgb(190, 191, 210);
+    margin: auto;
+}
+header {
+    width: 100%;
+    height: 80vh;
+    background: url(http://www.volvobuses.com/content/dam/volvo-buses/markets/master/coaches/complete-coaches/2326x800_Coach_buses_Top_image.jpg) no-repeat;
+    background-size:cover;
+    margin-bottom: 80px;
+}
+nav {
+    position: fixed;
+    width: 100%;
+}
+nav ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+nav ul li {
+   display: inline-block;
+   padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.logo {
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+}
+.container{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+
+.container div.gallery:hover {
+border: 1px solid #777;
+}
+
+.container div.gallery img {
+width: 100%;
+height: auto;
+}
+
+.container div.desc {
+padding: 25px;
+text-align: center;
+font-size: 36px;
+font-weight: 500;
+}
+footer .piedpage{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer{
+        background-color: #24262b;
+        padding: 70px 0;
+    }
+    .footer-col{
+       width: 20%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:20;
+        bottom: -20px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 150px;
+    }
+    
+    .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    .formulaire .groupe, .input{
+        margin: 10px 0;
+        background: transparent;
+        border: 0;
+        resize: none;
+        padding: 10px;
+        width: 100%;
+    }
+    label{
+        color: #f3f5f6;
+    }
+    button{
+        border: 2px solid #f3f5f6;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        margin: 20px;
+        margin-bottom: 30px;
+    }
+
+    </style>
 </head>
 <body>
     <header>
@@ -16,7 +155,7 @@
             <div class="menu">
                 <ul>
                     <li>Accueil</li>
-                    <li>A-Propos</li>
+                    <li>APropos</li>
                     <li>Axe-Routiers</li>
                     <li>Service</li>
                     <li>Contact</li>
@@ -24,9 +163,11 @@
             </div>
         </nav>
     </header>
+    <div class="container">
+        <h1>TRANSPORT ET BUSINESS</h1>
     <div class="gallery">
         <a target="_blank" href="">
-          <img src="1.jpe" alt="bus" width="600" height="400">
+          <img src="ressource/1.jpe" alt="bus" width="300" height="250">
         </a>
         <div class="desc">TRANSPORT DE PERSONNES <br><br>
             Nous vous proposons un service de transport pour vos voyages d’affaires. <br> 
@@ -36,7 +177,7 @@
       
       <div class="gallery">
         <a target="_blank" href="">
-          <img src="transport-des-biens-1.jpg" alt="transport" width="600" height="400">
+          <img src="ressource/transport-des-biens-1.jpg" alt="transport" width="300" height="250">
         </a>
         <div class="desc">TRANSPORT DE BIENS <br><br>
             NOUR TRANSPORT VOYAGEURS offre <br>
@@ -47,7 +188,7 @@
       
       <div class="gallery">
         <a target="_blank" href="">
-          <img src="frais-de-transport-de-marchandises.jpg" alt="" width="600" height="400">
+          <img src="ressource/frais-de-transport-de-marchandises.jpg" alt="" width="300" height="250">
         </a>
         <div class="desc">TRANSPORT DE MARCHANDISES <br>
             Nous transportons vos Marchandises <br>
@@ -58,7 +199,7 @@
       
       <div class="gallery">
         <a target="_blank" href="">
-          <img src="location-bus-2.jpg" alt="Mountains" width="600" height="400">
+          <img src="ressource/location-bus-2.jpg" alt="Mountains" width="300" height="250">
         </a>
         <div class="desc">LOCATION DE BUS <br><br>
             NTV est un partenaire de confiance <br> 
@@ -67,5 +208,53 @@
              de dernière génération pour <br>
               vous assurer la tranquillité.</div>
       </div>
+    </div>
+    <footer class="footer">
+        <div class="piedpage">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>PAIEMENTS</h4>
+                    <ul>
+                        <li><a href="#"><img src="ressource/PAIEMENT-ORANGE-MONEY.png" alt="Orange Money" width="50" height="50"></a></li>
+                        <li><a href="#"><img src="ressource/mastercard.png" alt="mastercard" width="50" height="50"></a></li>
+                        <li><a href="#"><img src="ressource/PayPal-V-300x116.png" alt="paypal" width="50" height="50"></a></li>
+                        <li><a href="#"><img src="ressource/visa.png" alt="visa width="50" height="50"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>DERNIERES ACTUS</h4>
+                    <ul>
+                        <li><a href="#">OUVERTURE <br> D'UN NOUVEL AXE <br> BAMAKO-TOMBOUCTOU- <br> BAMAKO</a></li>
+                        <li><a href="#">OUVERTURE <br> DE L'AXE BAMAKO- <br> MOPTI-BAMAKO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CGV & CONFIDENTIALITE</h4>
+                    <ul>
+                        <li><a href="#">Condition Générales</a></li>
+                        <li><a href="#">Confidentialité et Cookies</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <form action="php/form.php" method="POST"">
+                    <h4>NOTRE NEWSLETTER</h4>
+                    <div class="formualire">
+                     <div class="groupe">
+                         <label>Nom:</label>
+                         <input type="text" class="input" name="nom" placeholder="Votre nom ici...">
+                     </div>
+                     <div class="groupe">
+                         <label>Email:</label>
+                         <input type="text" class="input" name="email" placeholder="Votre email ici...">
+                    </div>
+                    <div class="btn" align="right">
+                     <button type="submit">Je m'abonne</button>
+                 </form>
+                 </div>
+                </div>
+            </div>
+        </div>
+   </footer>
 </body>
 </html>
