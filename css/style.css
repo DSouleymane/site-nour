@@ -10,7 +10,7 @@ body{
 }
 header {
     width: 100%;
-    height: 80vh;
+    height: 0vh;
     background: url(http://www.volvobuses.com/content/dam/volvo-buses/markets/master/coaches/complete-coaches/2326x800_Coach_buses_Top_image.jpg) no-repeat;
     background-size:cover;
 }
