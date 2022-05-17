@@ -1,5 +1,4 @@
  <?php
-
  include "config/connexion.php";
  ?>
 <!DOCTYPE html>
@@ -37,6 +36,12 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #EFAD10;
 }
 .logo {
     position: fixed;
@@ -104,12 +109,13 @@ button{
                     <img src="ressource/logo.jpg" alt="logo de nour" width="100" height="88">
                 </div>
                 <div class="menu">
-                    <ul>
-                        <li>Accueil</li>
-                        <li>APropos</li>
-                        <li>Axe-Routiers</li>
-                        <li>Service</li>
-                        <li>Contact</li>
+                
+                <ul>
+                        <a href="#"><li>Accueil</li></a>
+                        <a href="apropos.html"><li>APropos</li></a>
+                        <a href="index.html"><li>Axe-Routiers</li></a>
+                        <a href="service.html"> <li>Service</li></a>
+                        <a href="contact.php"><li>Contact</li></a> 
                     </ul>
                 </div>
             </nav>
@@ -145,24 +151,23 @@ button{
             <div class="formulaire">
                 <div class="groupe">
                     <label>Nom et Prenom:</label>
-                    <input type="text" class="input" name="nom_prenom" placeholder="Votre nom et prenom ici..." required"">
+                    <input type="text" class="input" name="nom_prenom" id="nom_prenom" placeholder="Votre nom et prenom ici..." required"">
                 </div>
                 <div class="groupe">
                     <label>Email:</label>
-                    <input type="text" class="input" name="email" placeholder="Votre email ici..." required"">
+                    <input type="text" class="input" name="email" id="email" placeholder="Votre email ici..." required"">
                 </div>
                 <div class="groupe">
                     <label>Objet:</label>
-                    <input type="text" class="input" name="objet" placeholder="L'objet ici..." required"">
+                    <input type="text" class="input" name="objet" id="objet" placeholder="L'objet ici..." required"">
                 </div>
                 <div>
                     <label for="myfile">Joindre un fichier:</label>
                     <input type="file" id="myfile" name="fichier"><br><br>
-                    <input type="submit">
                 </div>
                 <div class="msg">
                     <label>Message:</label>
-                    <textarea name="message" placeholder="Votre message..."></textarea>
+                    <textarea name="message" id="message" placeholder="Votre message..."></textarea>
                 </div>
                 <div class="btn" align="right">
                     <button type="submit">Envoyer</button>
@@ -222,3 +227,4 @@ button{
                 </div>
             </div>
        </footer>
+</html>

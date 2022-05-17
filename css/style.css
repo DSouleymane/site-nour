@@ -18,6 +18,12 @@ nav {
     position: fixed;
     width: 100%;
 }
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #EFAD10;
+}
 nav ul {
     padding: 0;
     text-align: center;
@@ -26,6 +32,7 @@ nav ul {
 nav ul li {
    display: inline-block;
    padding: 20px;
+
 }
 nav ul li a {
     text-decoration: none;

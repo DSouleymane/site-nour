@@ -23,14 +23,22 @@ border-radius: ;
 nav.nav{
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
     list-style: none;
     width: 75%;
     margin-left: 200PX;
     padding-top: 90px;
     padding: 80PX;
 }
-nav.nav li{
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #EFAD10;
+}
+nav.nav ul li{
     color: white;
+    text-decoration: none;
 }
  .PC{   
     height: 9%;
