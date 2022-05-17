@@ -2,25 +2,27 @@
 
     include "../config/connexion.php";
    
-    if(isset($_POST["nom"]) && isset($_POST["prenom"]) && isset($_POST["mail"]) && isset($_POST["telephone"])
+    if(isset($_POST["nom_prenom"])&& isset($_POST["email"]) && isset($_POST["fichier"])
     && isset($_POST["objet"])&& isset($_POST["message"]));
     {
         
-        $nom= $_POST["nom"];
-        $mail= $_POST["mail"];
+        $nom_prenom= $_POST["nom_prenom"];
+        $email= $_POST["email"];
+        $objet= $_POST["email"];
+        $fichier= $_POST["email"];
+        $message= $_POST["email"];
 
-        $req = $db->prepare("insert into formulaire(nom,email,date) 
-                                                values('$nom','$mail', current_timestamp() )");
+        $req = $db->prepare("insert into formulaire(nom_prenom,email,date) 
+                                                values('$nom_prenom','$email','$objet','$fichier','$message', current_timestamp() )");
         $req->execute();
         
         if($req)
         {
-            echo "insertion reussie";
-            echo ' <a href="../../liste.php">Voir Formulaire</a>';
+            echo "Message envoyer avec succès";
         }
         else
         {
-            echo"erreur d'insertion";
+            echo"erreur d'envoie";
         }
         
     }

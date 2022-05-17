@@ -1,3 +1,7 @@
+ <?php
+
+ include "config/connexion.php";
+ ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -136,29 +140,29 @@ button{
                         </tr>
             </table>
         </div>
-        <form action="#" method="post">
+        <form action="php\form.php" method="post">
             <h1>Formulaire</h1>
             <div class="formulaire">
                 <div class="groupe">
                     <label>Nom et Prenom:</label>
-                    <input type="text" class="input" placeholder="Votre nom et prenom ici..." required"">
+                    <input type="text" class="input" name="nom_prenom" placeholder="Votre nom et prenom ici..." required"">
                 </div>
                 <div class="groupe">
                     <label>Email:</label>
-                    <input type="text" class="input" placeholder="Votre email ici..." required"">
+                    <input type="text" class="input" name="email" placeholder="Votre email ici..." required"">
                 </div>
                 <div class="groupe">
                     <label>Objet:</label>
-                    <input type="text" class="input" placeholder="Votre email ici..." required"">
+                    <input type="text" class="input" name="objet" placeholder="L'objet ici..." required"">
                 </div>
                 <div>
                     <label for="myfile">Joindre un fichier:</label>
-                    <input type="file" id="myfile" name="myfile"><br><br>
+                    <input type="file" id="myfile" name="fichier"><br><br>
                     <input type="submit">
                 </div>
                 <div class="msg">
                     <label>Message:</label>
-                    <textarea placeholder="Votre message..."></textarea>
+                    <textarea name="message" placeholder="Votre message..."></textarea>
                 </div>
                 <div class="btn" align="right">
                     <button type="submit">Envoyer</button>

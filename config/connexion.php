@@ -1,7 +1,7 @@
 <?php
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'contact');
+define('DB_NAME', 'nourtransport');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 

@@ -192,7 +192,7 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
+   width: 20%;
    padding: 0 15px;
 }
 .footer-col h4{
@@ -245,4 +245,15 @@ button{
     padding: 10px;
     margin: 20px;
     margin-bottom: 30px;
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
 }
