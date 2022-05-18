@@ -22,7 +22,7 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <a href="#"><li>Accueil</li></a>
+                        <a href="index.php"><li>Accueil</li></a>
                         <a href="apropos.html"><li>APropos</li></a>
                         <a href="index.html"><li>Axe-Routiers</li></a>
                         <a href="service.html"> <li>Service</li></a>

@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style_axe.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
@@ -111,7 +111,7 @@ button{
                 <div class="menu">
                 
                 <ul>
-                        <a href="#"><li>Accueil</li></a>
+                        <a href="index.php"><li>Accueil</li></a>
                         <a href="apropos.html"><li>APropos</li></a>
                         <a href="index.html"><li>Axe-Routiers</li></a>
                         <a href="service.html"> <li>Service</li></a>
@@ -155,7 +155,7 @@ button{
                 </div>
                 <div class="groupe">
                     <label>Email:</label>
-                    <input type="text" class="input" name="email" id="email" placeholder="Votre email ici..." required"">
+                    <input type="text" class="input" name="email" maxlength="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" placeholder="Votre email ici..." required"">
                 </div>
                 <div class="groupe">
                     <label>Objet:</label>
