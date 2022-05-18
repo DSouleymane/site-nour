@@ -3,7 +3,7 @@
     <head>
         <title>Nour Transport</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style (2).css">
          <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet">
     </head>
     
@@ -13,11 +13,11 @@
                 <h1>NOUR TRANSPORT</h1>
                 <nav>
                     <ul>
-                        <li><a href="#main-image">   Accueil </a></li>
-                        <li><a href="">A Propos </a></li>
-                        <li><a href="">Axes Routiers </a></li>
-                        <li><a href="">SERVICES </a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="index.php">Accueil </a></li>
+                        <li><a href="apropos.html">A Propos </a></li>
+                        <li><a href="axe.php">Axes Routiers </a></li>
+                        <li><a href="service.html">SERVICES </a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -89,17 +89,55 @@
             <p>NOUR COMMERCE <br> <br>
                  est spécialisée dans l'importation, l'exportation et
                  la Vente générale d'articles dans le domaine de l'alimentation, 
-                 les engins de toutes sortes et pleins d'autres produits. <br> <br></p>
-
-
-                
+                 les engins de toutes sortes et pleins d'autres produits. <br> <br></p>   
             </div>
-            <footer>
-                <div>
-                    <h1>Nour Transport</h1>
-                    <img src="images/nour logo 2.jpg" alt="nour" width="120px" height="70px">
-                    
-            </footer>
         </section>
+        <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>PAIEMENTS</h4>
+  	 			<ul>
+  	 				<li><a href="#"><img src="ressource/PAIEMENT-ORANGE-MONEY.png" alt="Orange Money" width="50" height="50"></a></li>
+  	 				<li><a href="#"><img src="ressource/mastercard.png" alt="mastercard" width="50" height="50"></a></li>
+  	 				<li><a href="#"><img src="ressource/PayPal-V-300x116.png" alt="paypal" width="50" height="50"></a></li>
+  	 				<li><a href="#"><img src="ressource/visa.png" alt="visa width="50" height="50"></a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>DERNIERES ACTUS</h4>
+  	 			<ul>
+  	 				<li><a href="#">OUVERTURE <br> D'UN NOUVEL AXE <br> BAMAKO-TOMBOUCTOU- <br> BAMAKO</a></li>
+  	 				<li><a href="#">OUVERTURE <br> DE L'AXE BAMAKO- <br> MOPTI-BAMAKO</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>CGV & CONFIDENTIALITE</h4>
+  	 			<ul>
+  	 				<li><a href="#">Condition Générales</a></li>
+  	 				<li><a href="#">Confidentialité et Cookies</a></li>
+  	 				<li><a href="#">FAQ</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+                   <form action="php\newsletter.php" method="POST"">
+  	 			<h4>NOTRE NEWSLETTER</h4>
+  	 			<div class="formualire">
+                    <div class="groupe">
+                        <label>Nom:</label>
+                        <input type="text" class="input" name="nom_prenom" placeholder="Votre nom ici...">
+                    </div>
+                    <div class="groupe">
+                        <label>Email:</label>
+                        <input type="text" class="input" name="email" placeholder="Votre email ici...">
+  	 			</div>
+                   <div class="btn" align="right">
+                    <button type="submit">Je m'abonne</button>
+                </form>
+                </div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
     </body>
 </html>
