@@ -208,12 +208,12 @@ button{
                         </ul>
                     </div>
                     <div class="footer-col">
-                        <form action="php/form.php" method="POST"">
+                        <form action="php\newsletter.php" method="POST"">
                         <h4>NOTRE NEWSLETTER</h4>
                         <div class="formualire">
                          <div class="groupe">
                              <label>Nom:</label>
-                             <input type="text" class="input" name="nom" placeholder="Votre nom ici...">
+                             <input type="text" class="input" name="nom_prenom" placeholder="Votre nom ici...">
                          </div>
                          <div class="groupe">
                              <label>Email:</label>
