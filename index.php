@@ -3,7 +3,7 @@
     <head>
         <title>Nour Transport</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style (2).css">
+        <link rel="stylesheet" href="css\style.css">
          <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel="stylesheet">
     </head>
     
