@@ -10,17 +10,17 @@ body{
  width: 100%;
 height: 2000px;
 }
-header.header {
+header .header {
     display: flex;
 }
-header.header img {
+header .header img {
 width: 150px;
 padding-top: 40px;
 padding-left: 40px;
 border-radius: ;
 }
 /* menu de navigation */
-nav.nav{
+nav .nav{
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -36,7 +36,7 @@ a {
 a:hover {
     color: #EFAD10;
 }
-nav.nav ul li{
+nav .nav ul li{
     color: white;
     text-decoration: none;
 }
