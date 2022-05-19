@@ -1,0 +1,132 @@
+#general{
+    background-color: #020086;
+    height: 1%;
+    width: 100%;
+    padding-bottom: 0%;
+}
+#st {
+    color: black;
+    background-color: #EFAD10;
+    height: 60px;
+    margin-top: 50PX;
+   padding-top: 10px;
+}
+#st2 {
+    color: black;
+    background-color: #EFAD10;
+    height: 60px;
+    
+    padding-top: 5px;
+    width: 100%;
+    }
+    #car img {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        padding-left: 850px;
+        padding-top: 100px;
+    }
+    #car2 img {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        padding-left: 850px;
+        padding-top: 300px;
+        margin-bottom: 50PX;
+    }
+    #text{
+          color: aliceblue;
+          padding-top: 60px; 
+          padding-left: 100px;
+    }
+    #st3 {
+        color: black;
+    color: #EFAD10;
+        height: 55px;
+        padding-top: 100px;
+        margin-top: 1px;
+        }
+        #st4 {
+            height: 55px;
+            padding-top: 2px;
+            margin-top: 100px;
+            padding-left: 450px;
+            color: #EFAD10;
+            }
+       #AD{
+        width: 150px;
+        height: 150px;
+        margin-left: 150px;
+        margin-top: 50px; 
+       } 
+       #AD2{
+        width: 150px;
+        height: 150px;
+        margin-left: 150px;
+        margin-top: 200px;
+        background-color: #EFAD10;
+       }
+      #PDG{
+        width: 150px;
+        height: 150px;
+        margin-left: 150px;
+        margin-top: -375px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
+      #PDG2{
+        width: 150px;
+        height: 150px;
+        margin-left: 455px;
+        margin-top: -165px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
+      #PDG3{
+        width: 150px;
+        height: 150px;
+        margin-left: 757px;
+        margin-top: -167px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
+      #PDG4{
+        width: 150px;
+        height: 150px;
+        margin-left: 1063px;
+        margin-top: -167px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
+      #PDG5{
+        width: 150px;
+        height: 150px;
+        margin-left: 150px;
+        margin-top: 200px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
+      #PDG6{
+        width: 150px;
+        height: 150px;
+        margin-top:-160px;
+        color: aliceblue;
+        background-color: #EFAD10;
+        margin-left: 455px;
+      }
+      #PDG7{
+        width: 150px;
+        height: 150px;
+        margin-left: 757px;
+        margin-top:-170px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
+      #PDG8{
+        width: 150px;
+        height: 150px;
+        margin-left: 1063px;
+        margin-top:-163px;
+        background-color: #EFAD10;
+        color: aliceblue;
+      }
